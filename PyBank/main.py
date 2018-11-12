@@ -13,7 +13,7 @@ with open(csvpath, newline='') as csvfile:
 
     print(csvreader)
 
-    # Read the header row first (skip this step if there is no header)
+    # Read the header row first (skip this step if there is no header)pu
     csv_header = next(csvreader)
     print(f"CSV Header: {csv_header}")
 
@@ -23,7 +23,7 @@ with open(csvpath, newline='') as csvfile:
         row_count = row_count+1
 
 #   The total number of months included in the dataset
-print(f"Total months: {row_count}")
+print(f"Total Months: {row_count}")
 
 #    The total net amount of "Profit/Losses" over the entire period
 
